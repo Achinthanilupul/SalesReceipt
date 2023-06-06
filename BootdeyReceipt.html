@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALES RECEIPT</title>
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="BootdeyReceipt.css">
+
+</head>
+<body style="background-image: url('bfd.jfif');">
+
+    <div class="container">
+        <div class="col-md-12">
+           <div class="invoice" style="background-image: url('vector.jpg');">
+        
+                <!-- begin invoice-company -->
+              <div class="invoice-company text-inverse f-w-600">
+                 <span class="pull-right hidden-print">
+                 <a href="javascript:;" class="btn btn-sm btn-white m-b-10 p-l-5"><i class="fa fa-file t-plus-1 text-danger fa-fw fa-lg"></i> Export as PDF</a>
+                 <a href="javascript:;" onclick="window.print()" class="btn btn-sm btn-white m-b-10 p-l-5"><i class="fa fa-print t-plus-1 fa-fw fa-lg"></i> Print</a>
+                 </span>
+                 <img src="Crysbro-Logo.webp"><img src ="CrysbroLogo.webp" alt="Crysbro" height="75" width="75">
+              </div>
+              <!-- end invoice-company -->
+              <!-- begin invoice-header -->
+              <div class="invoice-header">
+                 <div class="invoice-from">
+                    <small>from</small>
+                    <address class="m-t-5 m-b-5">
+                       <strong class="text-inverse">Achintha Nilupul</strong><br>
+                       129/k nuwara eliya<br>
+                       Phone: (076-7349415)<br>
+                       Fax: (123) 456-7890
+                    </address>
+                 </div>
+                 <div class="invoice-to">
+                    <small>to</small>
+                    <address class="m-t-5 m-b-5">
+                       <strong class="text-inverse">FARMS PRIDE ( PVT) LIMITED</strong><br>
+                       272, Jayamalapura, Gampola, Sri Lanka.<br>
+                       20500<br>
+                      T | +94 812 350 111<br>
+                       Fax: (123) 456-7890
+                    </address>
+                 </div>
+                 <div class="invoice-date">
+                    <small>Invoice / July period</small>
+                    <div class="date text-inverse m-t-5">August 3,2012</div>
+                    <div class="invoice-detail">
+                       #0000123DSS<br>
+                       Services Product
+                    </div>
+                 </div>
+              </div>
+              <!-- end invoice-header -->
+              <!-- begin invoice-content -->
+              <div class="invoice-content">
+                 <!-- begin table-responsive -->
+                 <div class="table-responsive">
+                    <table class="table table-invoice">
+                       <thead>
+                          <tr>
+                             <th>TASK DESCRIPTION</th>
+                             <th class="text-center" width="10%">RATE</th>
+                             <th class="text-center" width="10%">HOURS</th>
+                             <th class="text-right" width="20%">LINE TOTAL</th>
+                          </tr>
+                       </thead>
+                       <tbody>
+                          <tr>
+                             <td>
+                                <span class="text-inverse">Website design &amp; development</span><br>
+                                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sagittis arcu.</small>
+                             </td>
+                             <td class="text-center">$50.00</td>
+                             <td class="text-center">50</td>
+                             <td class="text-right">$2,500.00</td>
+                          </tr>
+                          <tr>
+                             <td>
+                                <span class="text-inverse">Branding</span><br>
+                                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sagittis arcu.</small>
+                             </td>
+                             <td class="text-center">$50.00</td>
+                             <td class="text-center">40</td>
+                             <td class="text-right">$2,000.00</td>
+                          </tr>
+                          <tr>
+                             <td>
+                                <span class="text-inverse">Redesign Service</span><br>
+                                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sagittis arcu.</small>
+                             </td>
+                             <td class="text-center">$50.00</td>
+                             <td class="text-center">50</td>
+                             <td class="text-right">$2,500.00</td>
+                          </tr>
+                       </tbody>
+                    </table>
+                 </div>
+                 <!-- end table-responsive -->
+                 <!-- begin invoice-price -->
+                 <div class="invoice-price">
+                    <div class="invoice-price-left">
+                       <div class="invoice-price-row">
+                          <div class="sub-price">
+                             <small>SUBTOTAL</small>
+                             <span class="text-inverse">$4,500.00</span>
+                          </div>
+                          <div class="sub-price">
+                             <i class="fa fa-plus text-muted"></i>
+                          </div>
+                          <div class="sub-price">
+                             <small>PAYPAL FEE (5.4%)</small>
+                             <span class="text-inverse">$108.00</span>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="invoice-price-right">
+                       <small>TOTAL</small> <span class="f-w-600">$4508.00</span>
+                    </div>
+                 </div>
+                 <!-- end invoice-price -->
+              </div>
+              <!-- end invoice-content -->
+              <!-- begin invoice-note -->
+              <div class="invoice-note">
+                 * Make all cheques payable to [crysbro]<br>
+                 * Payment is due within 30 days<br>
+                 * If you have any questions concerning this invoice, contact  [Rajitha, 0777500500, Rajitha@7gmail,com]
+              </div>
+              <!-- end invoice-note -->
+              <!-- begin invoice-footer -->
+              <div class="invoice-footer">
+                 <p class="text-center m-b-5 f-w-600">
+                    THANK YOU FOR YOUR BUSINESS
+                 </p>
+                 <p class="text-center">
+                    <span class="m-r-10"><i class="fa fa-fw fa-lg fa-globe"></i> achintha@gmail.com</span>
+                    <span class="m-r-10"><i class="fa fa-fw fa-lg fa-phone-volume"></i> T:076-7349415</span>
+                    <span class="m-r-10"><i class="fa fa-fw fa-lg fa-envelope"></i> info@crysbro.net</span>
+                 </p>
+              </div>
+              <!-- end invoice-footer -->
+           </div>
+        </div>
+     </div>
+    <footer class="bg-dark-gradient footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-border-bottom pb-6 mb-5">
+                    <div class="row">
+                        <div class="col-lg-4 col-xl-3">
+                            <h4 class="text-white">
+                                Sign up to Get Latest Updates
+                            </h4>
+                        </div>
+                        <div class="col-lg-4 col-xl-6">
+                            <form class="d-flex flex-row mb-2 p-1 bg-white input-group">
+                                <input type="email" class="form-control rounded-0 border-0" placeholder="you@yoursite.com">
+                                <button class="btn btn-secondary rounded-0 flex-shrink-0" type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                        <div class="col-lg-4 col-xl-3">
+                            <div class="text-lg-end text-white">
+                                <span class="h6">Call Us On</span><br>
+                                <span class="h3"> +94 812 350 111</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3 my-4">
+                        <div class="mb-4">
+                            <img src="static/img/logo-light.svg" title="" alt="">
+                        </div>
+                        <div class="text-white-65 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+                        <div class="nav footer-socila-icon">
+                            <a href="#">
+    <i class="fab fa-facebook-f"></i>
+    </a>
+                            <a href="#">
+    <i class="fab fa-twitter"></i>
+    </a>
+                            <a href="#">
+    <i class="fab fa-instagram"></i>
+    </a>
+                            <a href="#">
+    <i class="fab fa-linkedin-in"></i>
+    </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2 my-4">
+                        <h5 class="text-white h6 mb-4">Customer</h5>
+                        <ul class="list-unstyled white-link footer-links">
+                            <li>
+                                <a href="#">Get Corpo</a>
+                            </li>
+                            <li>
+                                <a href="#">Documentation</a>
+                            </li>
+                            <li>
+                                <a href="#">Help center</a>
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-2 my-4">
+                        <h5 class="text-white h6 mb-4">Product</h5>
+                        <ul class="list-unstyled white-link footer-links">
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Join our team</a>
+                            </li>
+                            <li>
+                                <a href="#">Elements</a>
+                            </li>
+                            <li>
+                                <a href="#">Products</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-2 my-4">
+                        <h5 class="text-white h6 mb-4">Company</h5>
+                        <ul class="list-unstyled white-link footer-links">
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Careers</a>
+                            </li>
+                            <li>
+                                <a href="#">Legal &amp; Security</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms of use</a>
+                            </li>
+                            <li>
+                                <a href="#">We're hiring!</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 my-4">
+                        <h5 class="text-white h6 mb-4">Company</h5>
+                        <div class="white-link">
+                            <div class="d-flex pb-3">
+                                <div class="avatar avatar-lg rounded">
+                                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" title="" alt="">
+                                </div>
+                                <div class="col ps-3">
+                                    <small class="text-white-65">29 March 2021</small>
+                                    <h6 class="font-w-500 h6 m-0"><a class="text-white" href="#">Markdown Language Sample Blog Post Styling</a></h6>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="avatar avatar-lg rounded">
+                                    <img src="https://bootdey.com/img/Content/avatar/avatar2.png" title="" alt="">
+                                </div>
+                                <div class="col ps-3">
+                                    <small class="text-white-65">29 March 2021</small>
+                                    <h6 class="font-w-500 h6 m-0"><a class="text-white" href="#">Markdown Language Sample Blog Post Styling</a></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom footer-border-top light py-3">
+            <div class="container text-center">
+                <p class="m-0">© 2021 copyright <a href="#" class="text-reset">pxdraft</a></p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+
+
